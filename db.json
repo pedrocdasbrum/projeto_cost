@@ -1,0 +1,88 @@
+{
+  "projects": [
+    {
+      "name": "Teste",
+      "budget": "1000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 900,
+      "services": [
+        {
+          "name": "novo serviço",
+          "cost": "300",
+          "id": "8ba8733b-337e-45df-8cee-ac15b5b78734"
+        },
+        {
+          "name": "serviço 3",
+          "cost": "600",
+          "id": "f38c8b18-dc6f-4f8e-939b-64e6480f7373"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Atualização de projeto",
+      "budget": "1240",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 100,
+      "services": [
+        {
+          "name": "atualizar projeto",
+          "cost": "50",
+          "id": "bfecdc91-f5eb-4cff-8b53-090ccd681bdc"
+        },
+        {
+          "name": "serviço 2",
+          "cost": "50",
+          "id": "e34d5c32-fcea-4d62-b5fc-4d48be1308c6"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Projeto 2",
+      "budget": "3000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "Casamata",
+      "budget": "1000000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
